@@ -1,0 +1,102 @@
+---
+id: portchange
+title: Windows与macOS的端口转换
+description: 一张表告诉你这些端口是什么意思，怎么设置
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+众所周知，Launchpad的设备端口名称在Windows与macOS上显示的是不一样的。
+
+由于Novation自身驱动的原因，Launchpad在Ableton Live中并不能显示正确的名称，而会使用MIDIIN/MIDIOUT来替代 （我猜可能是Novation的驱动都是通用的，没有单独给每个设备做驱动）
+
+而macOS则会按照官方设定的名称进行显示
+
+那么本文就是列个表格将Windows上的端口转换成正确的名称
+:::caution
+如果你的设备名前方有如1-、2-等等这样的前缀，请无视。这个是Windows系统自身同设备多驱动的标识，不影响你的选择与使用
+:::
+
+## Launchpad MK3第三代
+
+<Tabs
+  defaultValue="lpx"
+  values={
+      [
+        {label: 'Launchpad X (MK3)',value: 'lpx'},
+        {label: 'Launchpad Pro MK3',value: 'lppromk3'},
+        {label: 'Launchpad Mini MK3',value: 'lpminimk3'},
+      ]
+  }>
+  <TabItem value="lpx">
+
+Windows端口名称 | 正确名称
+:---: | :---:
+LPX MIDI | Launchpad X (LPX DAW Out)
+MIDIIN/MIDIOUT2 (LPX MIDI) | Launchpad X (LPX MIDI Out)
+
+  </TabItem>
+  <TabItem value="lpminimk3">
+
+Windows端口名称 | 正确名称
+:---: | :---:
+LPMiniMK3 MIDI | Launchpad Mini MK3 (LPProMK3 DAW Out)
+MIDIIN/MIDIOUT2 (LPMiniMK3 MIDI) | Launchpad Mini MK3 (LPProMK3 MIDI Out)
+
+  </TabItem>
+  <TabItem value="lppromk3">
+
+Windows端口名称 | 正确名称
+:---: | :---:
+LPProMK3 MIDI | Launchpad Pro MK3 (LPProMK3 MIDI)
+MIDIIN/MIDIOUT2 (LPProMK3 MIDI) | Launchpad Pro MK3 (LPProMK3 DIN)
+MIDIIN/MIDIOUT3 (LPProMK3 MIDI) | Launchpad Pro MK3 (LPProMK3 DAW)
+
+  </TabItem>
+</Tabs>
+
+## Launchpad MK2第二代
+
+<Tabs
+  defaultValue="lppromk1"
+  values={
+      [
+        {label: 'Launchpad Pro MK1',value: 'lppromk1'},
+        {label: 'Launchpad Pro MK1 CFW',value: 'lppromk1cfw'},
+        {label: 'Launchpad MK2 (RGB)',value: 'lpmk2'},
+        {label: 'Launchpad MINI MK2',value: 'lpminimk2'},
+      ]
+  }>
+  <TabItem value="lppromk1">
+
+Windows端口名称 | 正确名称
+:---: | :---:
+
+代补充
+
+  </TabItem>
+  <TabItem value="lppromk1cfw">
+
+Windows端口名称 | 正确名称
+:---: | :---:
+Launchpad Open | Launchpad Open (Standalone Port)
+MIDIIN/MIDIOUT2 (Launchpad Open) | Launchpad Open (MIDI Port)
+
+  </TabItem>
+  <TabItem value="lpmk2">
+
+Windows端口名称 | 正确名称
+:---: | :---:
+
+无设备，求补充
+
+  </TabItem>
+  <TabItem value="lpminimk2">
+
+Windows端口名称 | 正确名称
+:---: | :---:
+
+无设备，求补充
+
+  </TabItem>
+</Tabs>
