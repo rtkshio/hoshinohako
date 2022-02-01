@@ -11,7 +11,7 @@
   background-image: url(/img/bg.png);
   background-repeat: no-repeat;
   background-color: azure;
-  background-size: 100%;
+  background-size: 130%;
 }
 
 @media screen and (max-width: 966px) {
