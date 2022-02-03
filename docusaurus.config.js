@@ -65,6 +65,11 @@ const config = {
             label: '固件助手',
           },
           {
+            href: 'https://play.203.io',
+            position: 'left',
+            label: '浏览器游玩Unipad工程'
+          },
+          {
             to: '/support',
             position: 'right',
             label: '赞助支持'
