@@ -29,7 +29,8 @@ const sidebars = {
         'download/amxd',
         'download/vesource',
         'download/palettes',
-        'download/phonesoftware'
+        'download/phonesoftware',
+        'download/driver'
     ],
     },
     {
