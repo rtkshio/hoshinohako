@@ -38,7 +38,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-        content: '你对现阶段的网站还满意吗？欢迎填写<a href="https://wj.qq.com/s2/9668540/3841/" target="_blank">问卷调查</a>给予我们反馈',
+        content: '你对现阶段的网站还满意吗？欢迎填写  <a href="https://wj.qq.com/s2/9668540/3841/" target="_blank">问卷调查</a>  给予我们反馈。如果站点有问题请及时通过 <a href="https://hoshibox.deltaasterism.com/about#联系方式" target="_self">联系我们</a> 反馈',
         backgroundColor: '#ff9900',
         isCloseable: false,
       },
@@ -142,7 +142,7 @@ const config = {
           src: '/img/text-logo.png',
           href: 'https://',
       },
-        copyright: `Copyright © ${new Date().getFullYear()} Project DeltaAster by 「Raski」 <a href="https://icp.gov.moe/?keyword=20220090" target="_blank">萌ICP备20220090号</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} Project DeltaAster by Shio汐 <a href="https://icp.gov.moe/?keyword=20220090" target="_blank">萌ICP备20220090号</a>`,
       },
       prism: {
         theme: lightCodeTheme,
