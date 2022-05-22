@@ -62,7 +62,7 @@ const config = {
           {
             to: '/lfu',
             position: 'left',
-            label: '固件助手',
+            label: 'Launchpad固件助手',
           },
           {
             href: 'https://play.203.io',
@@ -142,7 +142,7 @@ const config = {
           src: '/img/text-logo.png',
           href: 'https://',
       },
-        copyright: `Copyright © ${new Date().getFullYear()} Project DeltaAster by Shio汐 <a href="https://icp.gov.moe/?keyword=20220090" target="_blank">萌ICP备20220090号</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} Project DeltaAster by 「-Raski-」 <a href="https://icp.gov.moe/?keyword=20220090" target="_blank">萌ICP备20220090号</a>`,
       },
       prism: {
         theme: lightCodeTheme,

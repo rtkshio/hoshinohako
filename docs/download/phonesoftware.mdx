@@ -66,12 +66,24 @@ Unipad是由韩国Launchpad爱好者制作的手机端Launchpad模拟器，可�
   </TabItem>
 </Tabs>
 
+----
+
 ### Super Pads / Super Pads Lights
 开发者：Opala Studios Solucoes Tecnologicas Ltda
 
 Super Pads和Super Pads Lights都是IOS上可以外接使用Launchpad游玩的第三方游戏，大部分时候使用的都是Super Pads Lights。
 
 #### Super Pads
+
+<Tabs
+  defaultValue="apple"
+  values={
+      [
+        {label: '苹果版本',value: 'apple'},
+        {label: '安卓版本',value: 'android'},
+      ]
+  }>
+  <TabItem value="apple">
 
 <a
   className="button button--lg button--outline button--primary"
@@ -80,7 +92,30 @@ Super Pads和Super Pads Lights都是IOS上可以外接使用Launchpad游玩的�
   跳转App Store下载
 </a>
 
+  </TabItem>
+  <TabItem value="android">
+
+<a
+  className="button button--lg button--outline button--primary"
+  target="_self"
+  href="https://dl.deltaasterism.com/storage/superpads/superpads_v4.5.7.apk">
+  下载
+</a>
+
+  </TabItem>
+</Tabs>
+
 #### Super Pads Lights
+
+<Tabs
+  defaultValue="apple"
+  values={
+      [
+        {label: '苹果版本',value: 'apple'},
+        {label: '安卓版本',value: 'android'},
+      ]
+  }>
+  <TabItem value="apple">
 
 <a
   className="button button--lg button--outline button--primary"
@@ -88,3 +123,24 @@ Super Pads和Super Pads Lights都是IOS上可以外接使用Launchpad游玩的�
   href="https://apps.apple.com/cn/app/super-pads-lights-be-a-dj/id1347371400">
   跳转App Store下载
 </a>
+
+  </TabItem>
+  <TabItem value="android">
+
+<a
+  className="button button--lg button--outline button--primary"
+  target="_self"
+  href="https://dl.deltaasterism.com/storage/superpads/superpads_lights_v2.0.17.xapk">
+  下载
+</a>
+
+<br/>
+<br/>
+
+:::caution 注意
+本安装包由于采用.xapk格式，除鸿蒙以外无法直接安装，需要使用SAI安装器
+可以 [点此](/tips/insuni) 来下载SAI，并查看安装方法
+:::
+
+  </TabItem>
+</Tabs>
